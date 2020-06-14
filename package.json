@@ -1,0 +1,21 @@
+{
+  "name": "blog_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "author": "Saksham Manocha",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "validator": "^13.0.0"
+  }
+}
